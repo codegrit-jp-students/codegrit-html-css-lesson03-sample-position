@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body, div {
+  margin: 0;
+  padding: 0;
+}
+
+.element1 {
+ background-color: yellow;
+ width: 150px;
+ height: 150px;
+ display: inline-block;
+}
+.element2 {
+ background-color: blue;
+ width: 150px;
+ height: 150px;
+ display: inline-block;
+ /* positionの値によっては、topやleftなどの別のプロパティで要素の最終的な配置を調整できる */
+ position: sticky;
+ top: 200px;
+ left: 200px;
+}
+.element3 {
+ background-color: red;
+ width: 550px;
+ height: 150px;
+ display: inline-block;
+}
